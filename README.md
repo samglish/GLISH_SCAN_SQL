@@ -34,7 +34,7 @@ def scanner_sql_injection(url):
 
         report.write("-" * 60 + "\n")
         report.write("End of scan.\n")
-```
+
 ### Example of usage
 
 ```python
