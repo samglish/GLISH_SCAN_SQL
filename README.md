@@ -36,7 +36,7 @@ def scanner_sql_injection(url):
         report.write("End of scan.\n")
 
 ```
-# Example of usage
+### Example of usage
 
 ```python
 if __name__ == "__main__":
