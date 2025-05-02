@@ -34,11 +34,10 @@ def scanner_sql_injection(url):
 
         report.write("-" * 60 + "\n")
         report.write("End of scan.\n")
-
+```
 ### Example of usage
 
 ```python
->>>>>>> ec54287bae5a376fb83232ea05c72c78c47900cb
 if __name__ == "__main__":
     target_url = input("Enter target URL (e.g., http://localhost/vulnerable.php?id=1) : ")
     scanner_sql_injection(target_url)
